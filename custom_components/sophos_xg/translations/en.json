@@ -1,0 +1,25 @@
+{
+  "title": "Sophos XG Firewall",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to your Sophos XG Firewall",
+        "description": "Enter the connection details for your Sophos XG Firewall. Make sure SNMP is enabled on the firewall.",
+        "data": {
+          "name": "Name",
+          "host": "Host / IP Address",
+          "port": "SNMP Port (default: 161)",
+          "community": "SNMP v2c Community String"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  }
+}
