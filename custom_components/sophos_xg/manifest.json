@@ -1,0 +1,11 @@
+{
+  "domain": "sophos_xg",
+  "name": "Sophos XG Firewall",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/istvanSA/sophos_xg",
+  "iot_class": "local_polling",
+  "requirements": ["pysnmp>=6.1.0"],
+  "version": "1.0.0"
+}
