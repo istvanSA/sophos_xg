@@ -1,5 +1,9 @@
 # Sophos XG Firewall Integration for Home Assistant
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/istvanSA/sophos_xg/main/icon.png" width="150" height="150">
+</p>
+
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 
 A custom Home Assistant integration to monitor Sophos XG (SFOS) Firewalls using SNMP. This integration provides real-time hardware health, network throughput, license status, and service monitoring.
